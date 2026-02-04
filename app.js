@@ -8,11 +8,9 @@ createApp({
 
       profile: {
         name: "Matteo Teofoli",
-        role: "Student / Developer • CTF Player",
-        location: "France",
-        email: "yourmail@example.com",
+        role: "Student in Cybersecurity & Cyber Defence / Developer • CTF Player",
+        location: "worldwide",
         github: "https://github.com/teofoli-matteo",
-        linkedin: "https://www.linkedin.com/in/your-profile",
         bio:
           "I actively participate in CTF competitions and have solid experience in software development. This portfolio showcases my school projects, personal work, and security-related activities.",
         highlights: [
@@ -22,17 +20,40 @@ createApp({
           { label: "Interests", value: "Offensive security & tooling" },
         ],
         skills: [
-          "CTF",
-          "Web Security",
-          "Reverse Engineering",
-          "Cryptography",
-          "Linux",
-          "Git",
-          "C",
-          "Python",
-          "JavaScript",
-          "Vue.js",
-        ],
+  // CTF & Offensive Security
+  "CTF",
+  "Privilege Escalation (Linux / Windows)",
+  "Active Directory Attacks",
+  "Web Security",
+  "Reverse Engineering",
+  "Cryptography",
+
+  // Web Vulnerabilities
+  "SQL Injection",
+  "Cross-Site Scripting (XSS)",
+  "Authentication Bypass",
+  "Command Injection",
+  "Insecure Deserialization",
+
+  // Tooling
+  "Burp Suite",
+  "Nmap",
+  "Netcat",
+  "John the Ripper",
+  "Hashcat",
+  "Gobuster",
+  "Metasploit",
+
+  // Systems & Dev
+  "Linux",
+  "Git",
+  "Python",
+  "JavaScript",
+  "C",
+  "C++",
+  "C#",
+  "Vue.js",
+]
       },
 
       projects: [
@@ -144,7 +165,6 @@ createApp({
       <section class="hero">
         <div class="container hero-grid">
           <div class="card card-pad">
-            <span class="pill">Portfolio • Vue.js • Responsive</span>
             <h1>CTF, Development & Security Projects</h1>
             <p>{{ profile.bio }}</p>
 
@@ -172,8 +192,8 @@ createApp({
         <div class="container card card-pad">
           <h2>About Me</h2>
           <p>
-            Replace this text with your background, interests, and career goals.
-            Keep it short and impact-oriented.
+            I am a Master’s student in Cybersecurity and Cyberdefense at the University of Luxembourg, with a background in Applied Information Technology. I have strong experience in software development using Python, Go, Java, and web technologies, and prior hands-on work with C, C++, C#, and JavaScript.
+            Passionate about cybersecurity from an early stage, I have been actively involved in CTF competitions for several years, developing practical skills in offensive security, problem-solving, and security tooling. My interests lie at the intersection of development, security, and real-world exploitation.
           </p>
         </div>
       </section>
