@@ -9,7 +9,7 @@ createApp({
       profile: {
         name: "Matteo Teofoli",
         role: "Student in Cybersecurity & Cyber Defence / Developer • CTF Player",
-        location: "worldwide",
+        location: "Worldwide",
         github: "https://github.com/teofoli-matteo",
         bio:
           "I actively participate in CTF competitions and have solid experience in software development. This portfolio showcases my school projects, personal work, and security-related activities.",
@@ -181,7 +181,6 @@ createApp({
 
           <div class="card card-pad kv">
             <div class="row"><span>Location</span><strong>{{ profile.location }}</strong></div>
-            <div class="row"><span>Email</span><strong>{{ profile.email }}</strong></div>
             <div class="row"><span>Categories</span><strong>School • Personal • CTF</strong></div>
             <div class="row"><span>Status</span><strong>Open to opportunities</strong></div>
           </div>
